@@ -9,7 +9,6 @@ import { Process } from "@/components/Process";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index: React.FC = () => {
   return (
@@ -31,7 +30,6 @@ const Index: React.FC = () => {
       {/* Footer & Floating Actions */}
       <Footer />
       <WhatsAppButton />
-      <MadeWithDyad />
     </div>
   );
 };
