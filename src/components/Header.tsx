@@ -45,21 +45,21 @@ export const Header: React.FC = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between">
-        {/* Brand Logo */}
+        {/* Brand Logo & Full Name */}
         <a href="#" className="flex items-center gap-3 group">
           <img 
             src="/logo-lumina.png" 
             alt="Lumina Film Logo" 
             className="w-8 h-8 object-contain rounded-sm"
           />
-          <span className="font-serif text-2xl sm:text-3xl font-semibold tracking-wider text-[#F4F2ED] uppercase">
-            {COMPANY_INFO.name}
+          <span className="font-serif text-lg sm:text-xl md:text-2xl font-semibold tracking-wider text-[#F4F2ED] uppercase leading-none">
+            {COMPANY_INFO.fullName}
           </span>
-          <span className="h-2 w-2 rounded-full bg-[#A88B5D] group-hover:scale-125 transition-transform hidden sm:block"></span>
+          <span className="h-2 w-2 rounded-full bg-[#A88B5D] group-hover:scale-125 transition-transform hidden lg:block"></span>
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8 text-sm uppercase tracking-widest text-[#F4F2ED]/80 font-medium">
+        <nav className="hidden lg:flex items-center space-x-6 text-sm uppercase tracking-widest text-[#F4F2ED]/80 font-medium">
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -76,17 +76,17 @@ export const Header: React.FC = () => {
         <div className="hidden md:block">
           <button
             onClick={() => openWhatsApp()}
-            className="inline-flex items-center justify-center px-5 py-2.5 text-xs uppercase tracking-widest font-semibold border border-[#A88B5D] text-[#F4F2ED] hover:bg-[#A88B5D] hover:text-[#0B0D0F] transition-all duration-300 rounded-sm group"
+            className="inline-flex items-center justify-center px-4 py-2 text-[10px] uppercase tracking-widest font-semibold border border-[#A88B5D] text-[#F4F2ED] hover:bg-[#A88B5D] hover:text-[#0B0D0F] transition-all duration-300 rounded-sm group"
           >
-            <span>Solicitar orçamento</span>
-            <ArrowUpRight className="ml-2 w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+            <span>Orçamento</span>
+            <ArrowUpRight className="ml-1.5 w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </button>
         </div>
 
         {/* Mobile Hamburger Button */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden text-[#F4F2ED] p-2 hover:text-[#A88B5D] transition-colors focus:outline-none"
+          className="lg:hidden text-[#F4F2ED] p-2 hover:text-[#A88B5D] transition-colors focus:outline-none"
           aria-label="Abrir Menu"
         >
           {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -95,7 +95,7 @@ export const Header: React.FC = () => {
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed inset-0 bg-[#0B0D0F] z-40 md:hidden flex flex-col justify-between px-8 py-12 transition-all duration-300 ${
+        className={`fixed inset-0 bg-[#0B0D0F] z-40 lg:hidden flex flex-col justify-between px-8 py-12 transition-all duration-300 ${
           mobileMenuOpen ? "opacity-100 pointer-events-auto top-[70px]" : "opacity-0 pointer-events-none top-[70px]"
         }`}
       >
