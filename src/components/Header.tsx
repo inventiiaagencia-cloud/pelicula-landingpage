@@ -47,10 +47,15 @@ export const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between">
         {/* Brand Logo */}
         <a href="#" className="flex items-center gap-3 group">
+          <img 
+            src="/logo-lumina.png" 
+            alt="Lumina Film Logo" 
+            className="w-8 h-8 object-contain rounded-sm"
+          />
           <span className="font-serif text-2xl sm:text-3xl font-semibold tracking-wider text-[#F4F2ED] uppercase">
             {COMPANY_INFO.name}
           </span>
-          <span className="h-2 w-2 rounded-full bg-[#A88B5D] group-hover:scale-125 transition-transform"></span>
+          <span className="h-2 w-2 rounded-full bg-[#A88B5D] group-hover:scale-125 transition-transform hidden sm:block"></span>
         </a>
 
         {/* Desktop Navigation */}
