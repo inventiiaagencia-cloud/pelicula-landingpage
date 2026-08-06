@@ -1,8 +1,8 @@
 export const COMPANY_INFO = {
   name: "Lumina",
   fullName: "Lumina Películas Arquitetônicas",
-  phone: "5511999999999",
-  formattedPhone: "(11) 99999-9999",
+  phone: "5511962816186",
+  formattedPhone: "(11) 96281-6186",
   email: "contato@luminarchitectural.com.br",
   instagram: "@lumina.peliculas",
   location: "São Paulo, SP e Região Metropolitana",

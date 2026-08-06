@@ -85,7 +85,7 @@ export const Solutions: React.FC = () => {
 
                   <div className="pt-4">
                     <button
-                      onClick={() => openWhatsApp(`Olá! Gostaria de mais informações sobre a solução de ${solution.title}.`)}
+                      onClick={() => openWhatsApp(`Olá! Cliquei no setor de Soluções e gostaria de orçamento para a película de "${solution.title}".`)}
                       className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-[#F4F2ED] border-b border-[#A88B5D] pb-1 hover:text-[#A88B5D] transition-colors font-medium group"
                     >
                       <span>Consultar solução de {solution.title}</span>

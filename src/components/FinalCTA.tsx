@@ -32,7 +32,7 @@ export const FinalCTA: React.FC = () => {
 
         <div className="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
           <button
-            onClick={() => openWhatsApp()}
+            onClick={() => openWhatsApp("Olá! Cliquei na faixa final de contato do site e gostaria de enviar fotos para uma avaliação sem compromisso.")}
             className="w-full sm:w-auto inline-flex items-center justify-center px-10 py-4 bg-[#A88B5D] text-[#0B0D0F] font-bold text-xs uppercase tracking-[0.2em] hover:bg-[#bfa272] transition-all duration-300 rounded-sm group shadow-xl shadow-[#A88B5D]/10"
           >
             <span>Falar pelo WhatsApp</span>
