@@ -24,7 +24,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     title: "Controle Solar",
     subtitle: "Conforto térmico com máxima luminosidade natural",
     description: "Tecnologia de rejeição infravermelha de alta precisão que reduz significativamente o calor excessivo e elimina os raios UV sem escurecer os ambientes ou alterar a estética da fachada.",
-    image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1200&auto=format&fit=crop",
+    image: "/controle-solar.png",
     features: [
       "Redução expressiva da sensação térmica",
       "Proteção de móveis, obras de arte e pisos contra desbotamento",
@@ -38,7 +38,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     title: "Privacidade",
     subtitle: "Proteção visual e sofisticação arquitetônica",
     description: "Soluções jateadas, translúcidas, neutras ou refletivas projetadas para criar resguardo em salas de reunião, dormitórios, varandas e banheiros, sem bloquear a transição agradável de luz.",
-    image: "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1200&auto=format&fit=crop",
+    image: "/privacidade.png",
     features: [
       "Bloqueio de visibilidade indesejada de fora para dentro",
       "Opções com transparência unidirecional ou efeito fosco",
@@ -52,7 +52,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     title: "Segurança",
     subtitle: "Resistência estrutural para vidros expostos",
     description: "Películas de retenção de fragmentos fabricadas com poliéster de alta densidade. Em caso de impacto ou quebra acidental, mantêm os cacos unidos à película, prevenindo acidentes severos.",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+    image: "/seguranca.png",
     features: [
       "Retenção efetiva dos estilhaços em caso de quebra",
       "Proteção reforçada para portas de sacada e guarda-corpos",
@@ -66,7 +66,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     title: "Design & Decoração",
     subtitle: "Texturas e geometria para arquitetura de interiores",
     description: "Elementos visuais personalizados para divisórias de escritórios, clínicas e residências contemporâneas. Trazem ritmo, identidade de marca e elegância sutil às superfícies envidraçadas.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop",
+    image: "/design-decoracao.png",
     features: [
       "Efeitos jateados padronizados ou customizados",
       "Linhas e geometrias minimalistas sob medida",
@@ -81,7 +81,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     id: "proj-1",
     title: "Residência com fachada envidraçada",
     category: "Casas",
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
+    image: "/residencia-fachada-envidracada.png",
     description: "Aplicação de película de alta tecnologia com alta rejeição de calor e tom neutro, preservando a transparência e a integração com o jardim.",
     location: "Alphaville, SP"
   },
@@ -89,8 +89,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
     id: "proj-2",
     title: "Apartamento com controle solar",
     category: "Apartamentos",
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop",
-    description: "Solução em grande varanda envidraçada voltada para o poente. Redução de calor mantendo a vista panorâmica da cidade.",
+    image: "/apartamento-controle-solar.png",
+    description: "Solução em grande varanda envidraçada voltada para o poente. Redução de 78% do calor sem alterar a vista panorâmica da cidade.",
     location: "Jardins, SP"
   },
   {
@@ -106,14 +106,14 @@ export const PROJECTS_DATA: ProjectItem[] = [
     title: "Fachada corporativa com acabamento neutro",
     category: "Fachadas",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
-    description: "Tratamento completo da pele de vidro de edifício sede corporativo. Otimização do ar condicionado e uniformidade estética.",
+    description: "Tratamento completo da pele de vidro de edifício sede corporativo. Otimização de energia do ar condicionado e uniformidade estética.",
     location: "Vila Olímpia, SP"
   },
   {
     id: "proj-5",
     title: "Suíte master com filtro de privacidade",
     category: "Privacidade",
-    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+    image: "/suite-master-privacidade.png",
     description: "Película inteligente refletiva suave para janelas piso-teto de dormitório principal, bloqueando a visão da vizinhança durante o dia.",
     location: "Alto de Pinheiros, SP"
   },
