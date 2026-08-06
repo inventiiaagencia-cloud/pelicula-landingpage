@@ -75,7 +75,7 @@ export const Header: React.FC = () => {
         {/* Desktop CTA Button */}
         <div className="hidden md:block">
           <button
-            onClick={() => openWhatsApp("Olá! Gostaria de solicitar um orçamento diretamente pelo botão do Menu Superior do site.")}
+            onClick={() => openWhatsApp("Olá! Vim pelo topo do site e gostaria de fazer um orçamento com vocês.")}
             className="inline-flex items-center justify-center px-4 py-2 text-[10px] uppercase tracking-widest font-semibold border border-[#A88B5D] text-[#F4F2ED] hover:bg-[#A88B5D] hover:text-[#0B0D0F] transition-all duration-300 rounded-sm group"
           >
             <span>Orçamento</span>
@@ -120,7 +120,7 @@ export const Header: React.FC = () => {
           <button
             onClick={() => {
               setMobileMenuOpen(false);
-              openWhatsApp("Olá! Gostaria de solicitar um orçamento pelo Menu Mobile do site.");
+              openWhatsApp("Olá! Vim pelo menu do celular no site e queria pedir um orçamento.");
             }}
             className="w-full py-3 text-xs uppercase tracking-widest font-bold bg-[#A88B5D] text-[#0B0D0F] hover:bg-[#bfa272] transition-colors rounded-sm"
           >

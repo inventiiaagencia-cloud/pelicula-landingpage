@@ -6,7 +6,7 @@ export const WhatsAppButton: React.FC = () => {
   return (
     <div className="fixed bottom-6 right-6 z-40">
       <button
-        onClick={() => openWhatsApp("Olá! Estava navegando pelo site e cliquei no botão flutuante para tirar algumas dúvidas pelo WhatsApp.")}
+        onClick={() => openWhatsApp("Olá! Estava vendo o site de vocês e queria tirar umas dúvidas no WhatsApp.")}
         className="flex items-center gap-3 bg-[#25D366] hover:bg-[#20ba5a] text-white p-3.5 sm:px-5 sm:py-3.5 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 group border border-white/20"
         aria-label="Atendimento por WhatsApp"
       >

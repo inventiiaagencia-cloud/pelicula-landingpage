@@ -43,7 +43,7 @@ export const Applications: React.FC = () => {
               
               <div className="pt-2">
                 <button
-                  onClick={() => openWhatsApp("Olá! Cliquei no setor 'Áreas de Atuação - Residencial' e gostaria de avaliar meu projeto.")}
+                  onClick={() => openWhatsApp("Olá! Quero colocar película na minha casa/apartamento e gostaria de um orçamento.")}
                   className="inline-flex items-center gap-2 px-6 py-3 bg-[#0B0D0F]/80 backdrop-blur-md border border-[#A88B5D] text-[#F4F2ED] text-xs uppercase tracking-widest hover:bg-[#A88B5D] hover:text-[#0B0D0F] transition-all duration-300 rounded-sm font-semibold group"
                 >
                   <span>Avaliar projeto residencial</span>
@@ -76,7 +76,7 @@ export const Applications: React.FC = () => {
 
               <div className="pt-2">
                 <button
-                  onClick={() => openWhatsApp("Olá! Cliquei no setor 'Áreas de Atuação - Corporativo' e gostaria de uma cotação para minha empresa.")}
+                  onClick={() => openWhatsApp("Olá! Preciso de película para minha empresa/escritório e gostaria de um orçamento.")}
                   className="inline-flex items-center gap-2 px-6 py-3 bg-[#0B0D0F]/80 backdrop-blur-md border border-[#78939D] text-[#F4F2ED] text-xs uppercase tracking-widest hover:bg-[#78939D] hover:text-[#0B0D0F] transition-all duration-300 rounded-sm font-semibold group"
                 >
                   <span>Avaliar projeto corporativo</span>

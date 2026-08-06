@@ -145,12 +145,12 @@ export const Projects: React.FC = () => {
               <div className="pt-4 flex justify-end">
                 <button
                   onClick={() => {
-                    openWhatsApp(`Olá! Gostaria de informações sobre um projeto similar ao "${selectedProject.title}".`);
+                    openWhatsApp(`Olá! Gostei muito da foto do projeto "${selectedProject.title}" que vi no site e queria fazer algo parecido.`);
                     setSelectedProject(null);
                   }}
                   className="px-6 py-3 bg-[#A88B5D] text-[#0B0D0F] font-semibold text-xs uppercase tracking-widest hover:bg-[#bfa272] transition-colors rounded-xs flex items-center gap-2"
                 >
-                  <span>Solicitar projeto similar</span>
+                  <span>Solicitar algo parecido</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </button>
               </div>

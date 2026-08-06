@@ -6,7 +6,7 @@ export const COMPANY_INFO = {
   email: "contato@luminarchitectural.com.br",
   instagram: "@lumina.peliculas",
   location: "São Paulo, SP e Região Metropolitana",
-  defaultMessage: "Olá! Conheci a empresa pelo site e gostaria de solicitar uma avaliação para instalação de película arquitetônica.",
+  defaultMessage: "Olá! Vi o site de vocês e gostaria de solicitar um orçamento.",
 };
 
 export function getWhatsAppLink(customMessage?: string): string {

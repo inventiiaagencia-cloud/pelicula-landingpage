@@ -49,7 +49,7 @@ export const Hero: React.FC = () => {
           {/* Action Buttons */}
           <div className="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
             <button
-              onClick={() => openWhatsApp("Olá! Cliquei no botão 'Solicitar avaliação' na capa (Hero) do site e gostaria de mais informações.")}
+              onClick={() => openWhatsApp("Olá! Vi o site de vocês e gostaria de tirar umas dúvidas e solicitar um orçamento.")}
               className="inline-flex items-center justify-center px-8 py-4 bg-[#A88B5D] text-[#0B0D0F] font-semibold text-xs uppercase tracking-[0.2em] hover:bg-[#bfa272] transition-all duration-300 rounded-sm group shadow-lg shadow-[#A88B5D]/10"
             >
               <span>Solicitar avaliação</span>
