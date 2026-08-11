@@ -16,7 +16,7 @@ export const Hero: React.FC = () => {
       {/* Background Cinematic High-Res Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hero-bg.png"
+          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2000&auto=format&fit=crop"
           alt="Residência de alto padrão com grandes áreas em vidro e películas de controle solar"
           className="w-full h-full object-cover object-center transform scale-105 transition-transform duration-1000"
           loading="eager"
