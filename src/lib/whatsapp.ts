@@ -8,6 +8,20 @@ export const COMPANY_INFO = {
   defaultMessage: "Olá! Vi o site de vocês e gostaria de solicitar um orçamento.",
 };
 
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void;
+  }
+}
+
+export function trackConversion(): void {
+  if (typeof window !== "undefined" && typeof window.gtag === "function") {
+    window.gtag("event", "conversion", {
+      send_to: "AW-18384485193/VQZhCLzJ2-McEMn2s75E",
+    });
+  }
+}
+
 export function getWhatsAppLink(customMessage?: string): string {
   const message = customMessage || COMPANY_INFO.defaultMessage;
   const encodedMessage = encodeURIComponent(message);
@@ -15,5 +29,6 @@ export function getWhatsAppLink(customMessage?: string): string {
 }
 
 export function openWhatsApp(customMessage?: string): void {
+  trackConversion();
   window.open(getWhatsAppLink(customMessage), "_blank", "noopener,noreferrer");
 }
